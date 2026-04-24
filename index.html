@@ -17,324 +17,308 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="hero">
-      <nav class="topbar">
-        <span class="brand">AAP</span>
-        <div class="topbar-links">
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#teaching">Teaching</a>
-          <a href="#contact">Contact</a>
-        </div>
+  <header class="site-header">
+    <div class="shell topbar">
+      <a class="logo" href="#intro">Aditya</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#intro">Home</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
       </nav>
+    </div>
+  </header>
 
-      <div class="hero-grid">
-        <section class="hero-copy">
-          <p class="eyebrow">Consultant at Capgemini</p>
-          <h1>Android developer with hands-on experience in Android Automotive and modern app development.</h1>
-          <p class="lead">
-            I currently work as a Consultant at Capgemini in the Android Automotive
-            domain. My work sits at the intersection of Android app development,
-            Jetpack Compose, Kotlin-based architecture, debugging, performance
-            tuning, and platform-aware implementation for automotive and embedded
-            Android environments.
-          </p>
-          <div class="cta-row">
-            <a class="button primary" href="#contact">Contact me</a>
-            <a class="button secondary" href="#work">View experience</a>
-          </div>
-          <ul class="signal-list">
-            <li>Android app development with Kotlin and Jetpack Compose</li>
-            <li>Android Automotive and infotainment-focused engineering</li>
-            <li>Debugging, optimization, and system integration support</li>
-            <li>Clean architecture and scalable Android code structure</li>
-          </ul>
-        </section>
+  <main>
+    <section class="intro" id="intro">
+      <div class="intro-overlay"></div>
+      <div class="shell intro-content">
+        <p class="eyebrow">Consultant at Capgemini</p>
+        <h1>Android developer building app experiences with real Android Automotive domain exposure.</h1>
+        <p class="intro-copy">
+          I work as a Consultant at Capgemini in the Android Automotive domain,
+          with hands-on experience in Android app development, Jetpack Compose,
+          Kotlin, debugging, integration, and platform-aware implementation.
+        </p>
+        <div class="intro-actions">
+          <a class="button button-primary" href="#about">About me</a>
+          <a class="button button-stroke" href="#portfolio">View portfolio</a>
+          <a class="button button-ghost" href="#contact">Let's talk</a>
+        </div>
+        <ul class="intro-social">
+          <li><a href="https://www.linkedin.com/in/aditya-narayan-pradhan-44643a269" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/adityanarayan389" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="mailto:adnpradhan@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </section>
 
-        <aside class="hero-panel">
-          <div class="product-preview">
-            <div class="preview-device">
-              <div class="preview-topbar">
-                <span class="preview-dot"></span>
-                <span class="preview-dot"></span>
-                <span class="preview-dot"></span>
-              </div>
-              <div class="preview-screen">
-                <div class="preview-chip-row">
-                  <span>Compose</span>
-                  <span>Kotlin</span>
-                  <span>Android</span>
-                </div>
-                <div class="preview-graph">
-                  <span class="graph-bar tall"></span>
-                  <span class="graph-bar mid"></span>
-                  <span class="graph-bar short"></span>
-                  <span class="graph-bar tall"></span>
-                </div>
-                <div class="preview-card">
-                  <strong>Current Focus</strong>
-                  <p>Android apps, automotive flows, platform integration, and reliable delivery.</p>
-                </div>
-              </div>
+    <section class="section about" id="about">
+      <div class="shell">
+        <div class="section-heading centered">
+          <p class="eyebrow">About</p>
+          <h2>Let me introduce the engineer behind this portfolio</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-intro card">
+            <div class="avatar-block">
+              <div class="avatar-mark">ANP</div>
             </div>
-          </div>
-          <div class="panel-card stat-card">
-            <p class="panel-label">Current role</p>
-            <h2>Consultant at Capgemini, contributing to Android Automotive software delivery</h2>
-            <div class="stat-strip">
-              <div>
-                <strong>UI</strong>
-                <span>Compose-first</span>
-              </div>
-              <div>
-                <strong>Stack</strong>
-                <span>Kotlin + Jetpack</span>
-              </div>
-              <div>
-                <strong>Domain</strong>
-                <span>Android Automotive</span>
-              </div>
-            </div>
-          </div>
-          <div class="panel-card">
-            <p class="panel-label">Strengths</p>
-            <div class="badge-group">
-              <span>App development</span>
-              <span>Automotive UI</span>
-              <span>Bug fixing</span>
-              <span>Performance tuning</span>
-              <span>System integration</span>
-            </div>
-          </div>
-          <div class="panel-card mini-proof">
-            <p class="panel-label">What I focus on</p>
-            <p>
-              Building reliable Android experiences with strong technical ownership,
-              clear architecture, and practical debugging across both app and
-              platform-facing layers.
+            <p class="lead">
+              I am Aditya Narayan Pradhan, an Android developer currently working
+              as a Consultant at Capgemini. My current role is focused on Android
+              Automotive, while my broader skill set includes Android app
+              development, Kotlin, Jetpack Compose, UI architecture, debugging,
+              integration, and performance tuning.
             </p>
           </div>
-        </aside>
-      </div>
-    </header>
 
-    <main>
-      <section class="section" id="services">
-        <div class="section-heading">
-          <p class="eyebrow">Core Skills</p>
-          <h2>Areas where I bring the most value</h2>
+          <div class="about-stats">
+            <article class="stat-card">
+              <strong>Current Role</strong>
+              <span>Consultant</span>
+            </article>
+            <article class="stat-card">
+              <strong>Company</strong>
+              <span>Capgemini</span>
+            </article>
+            <article class="stat-card">
+              <strong>Domain</strong>
+              <span>Android Automotive</span>
+            </article>
+            <article class="stat-card">
+              <strong>Core Stack</strong>
+              <span>Kotlin + Jetpack Compose</span>
+            </article>
+          </div>
         </div>
-        <div class="card-grid three-up">
-          <article class="info-card">
-            <p class="card-kicker">App development</p>
+
+        <div class="profile-grid">
+          <article class="card">
+            <h3>Profile</h3>
+            <ul class="detail-list">
+              <li><strong>Name</strong><span>Aditya Narayan Pradhan</span></li>
+              <li><strong>Current Position</strong><span>Consultant at Capgemini</span></li>
+              <li><strong>Specialization</strong><span>Android Development and Android Automotive</span></li>
+              <li><strong>Email</strong><span><a href="mailto:adnpradhan@gmail.com">adnpradhan@gmail.com</a></span></li>
+              <li><strong>Phone</strong><span><a href="tel:+919348067631">+91 9348067631</a></span></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Skills</h3>
+            <div class="skill-list">
+              <span>Kotlin</span>
+              <span>Android SDK</span>
+              <span>Jetpack Compose</span>
+              <span>MVVM / Clean Architecture</span>
+              <span>Android Automotive</span>
+              <span>Debugging</span>
+              <span>UI Implementation</span>
+              <span>Performance Tuning</span>
+              <span>Integration Support</span>
+              <span>Platform Awareness</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume" id="resume">
+      <div class="shell">
+        <div class="section-heading centered">
+          <p class="eyebrow">Resume</p>
+          <h2>Experience and professional direction</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card card">
+              <p class="timeline-date">Present</p>
+              <h3>Consultant</h3>
+              <h4>Capgemini</h4>
+              <p>
+                Currently working in the Android Automotive domain, contributing
+                to Android-based software delivery with a focus on application
+                behavior, domain understanding, debugging, integration support,
+                and platform-aware problem solving.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card card">
+              <p class="timeline-date">Core Strength</p>
+              <h3>Android App Development</h3>
+              <h4>Kotlin, Compose, Architecture</h4>
+              <p>
+                Strong foundation in Android application development with Kotlin,
+                Jetpack libraries, Compose-based UI, maintainable app structure,
+                and practical issue resolution across the development lifecycle.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card card">
+              <p class="timeline-date">Engineering Focus</p>
+              <h3>Debugging and Integration</h3>
+              <h4>App to platform awareness</h4>
+              <p>
+                Comfortable working on crashes, behavioral issues, lifecycle
+                problems, integration bottlenecks, and other technical issues
+                where product functionality and system understanding both matter.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="shell">
+        <div class="section-heading centered">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Project placeholders ready for real uploads</h2>
+          <p class="section-copy">
+            These are intentionally placeholders for now. We can replace each one
+            later with your real Android and Android Automotive projects, images,
+            outcomes, and store or GitHub links.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card card featured-project">
+            <div class="project-visual">
+              <span>Project Placeholder 01</span>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Featured Placeholder</p>
+              <h3>Android Automotive Project Placeholder</h3>
+              <p>
+                Replace this card later with one of your strongest Capgemini or
+                Android Automotive case studies.
+              </p>
+              <ul>
+                <li>Add project summary</li>
+                <li>Add your responsibility</li>
+                <li>Add tools, stack, and impact</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card card">
+            <div class="project-visual">
+              <span>Project Placeholder 02</span>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Placeholder</p>
+              <h3>Android App Project Placeholder</h3>
+              <p>Use this for a mobile app, personal build, or feature implementation example.</p>
+            </div>
+          </article>
+
+          <article class="project-card card">
+            <div class="project-visual">
+              <span>Project Placeholder 03</span>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Placeholder</p>
+              <h3>Compose UI Project Placeholder</h3>
+              <p>Use this for a UI-focused project, Jetpack Compose implementation, or redesign work.</p>
+            </div>
+          </article>
+
+          <article class="project-card card">
+            <div class="project-visual">
+              <span>Project Placeholder 04</span>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Placeholder</p>
+              <h3>Debugging / Integration Placeholder</h3>
+              <p>Use this for a project that shows debugging depth, issue resolution, or system integration work.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="shell">
+        <div class="section-heading centered">
+          <p class="eyebrow">Services</p>
+          <h2>What this portfolio says about my strengths</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card card">
+            <div class="service-icon">01</div>
             <h3>Android App Development</h3>
             <p>
-              I build and improve Android applications using Kotlin, Jetpack Compose,
-              clean architecture, and maintainable UI patterns.
+              Building Android experiences with Kotlin, Compose, Jetpack
+              libraries, maintainable app architecture, and production-minded
+              development.
             </p>
-            <ul>
-              <li>Kotlin-based Android app development</li>
-              <li>Compose UI and screen flow implementation</li>
-              <li>Architecture that supports long-term scalability</li>
-            </ul>
           </article>
 
-          <article class="info-card">
-            <p class="card-kicker">Automotive domain</p>
-            <h3>Android Automotive Engineering</h3>
+          <article class="service-card card">
+            <div class="service-icon">02</div>
+            <h3>Android Automotive Domain Experience</h3>
             <p>
-              My current professional focus is Android Automotive, where I work on
-              app behavior, infotainment-oriented features, integration concerns,
-              and platform-aware engineering decisions.
+              Working professionally in Android Automotive at Capgemini gives me
+              domain exposure beyond standard mobile-only development.
             </p>
-            <ul>
-              <li>Android Automotive app and UI understanding</li>
-              <li>Infotainment and domain-specific feature support</li>
-              <li>Platform-aware implementation thinking</li>
-            </ul>
           </article>
 
-          <article class="info-card">
-            <p class="card-kicker">Debug and improve</p>
-            <h3>Debugging, Optimization, and Integration</h3>
+          <article class="service-card card">
+            <div class="service-icon">03</div>
+            <h3>Debugging and Technical Problem Solving</h3>
             <p>
-              I enjoy working through crashes, integration issues, UI defects, and
-              performance bottlenecks until the product becomes stable and shippable.
+              I enjoy understanding systems clearly, tracing issues carefully,
+              and improving stability, behavior, and delivery confidence.
             </p>
-            <ul>
-              <li>Bug reproduction and root-cause analysis</li>
-              <li>Performance tuning and release-readiness support</li>
-              <li>Integration help across app and platform layers</li>
-            </ul>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section split-section" id="work">
-        <div class="section-heading">
-          <p class="eyebrow">Experience Snapshot</p>
-          <h2>Work that reflects my Android and automotive background</h2>
-          <p>This section now highlights the kind of work I do professionally and the strengths I want the portfolio to communicate.</p>
-        </div>
-        <div class="card-grid">
-          <article class="case-card featured">
-            <div class="case-header">
-              <p class="case-tag">Current domain</p>
-              <h3>Android Automotive Consulting at Capgemini</h3>
-            </div>
-            <p>
-              Currently working as a Consultant at Capgemini in the Android Automotive
-              domain, contributing to Android-based automotive software with a focus
-              on application behavior, platform understanding, debugging, and
-              delivery support in a real production environment.
-            </p>
-            <div class="case-metrics">
-              <div>
-                <span>Role</span>
-                <strong>Consultant</strong>
-              </div>
-              <div>
-                <span>Company</span>
-                <strong>Capgemini</strong>
-              </div>
-              <div>
-                <span>Domain</span>
-                <strong>Android Automotive</strong>
-              </div>
-            </div>
-            <div class="case-columns">
-              <div>
-                <h4>What I handled</h4>
-                <ul>
-                  <li>Android-focused feature implementation and support</li>
-                  <li>Automotive domain understanding and technical contribution</li>
-                  <li>Debugging and issue analysis across moving parts</li>
-                  <li>Delivery-focused development in a consulting environment</li>
-                </ul>
-              </div>
-              <div>
-                <h4>Why it matters</h4>
-                <ul>
-                  <li>Shows real-world Android Automotive exposure</li>
-                  <li>Demonstrates production-minded engineering</li>
-                  <li>Highlights consulting adaptability and ownership</li>
-                  <li>Connects Android app skills with domain-specific work</li>
-                </ul>
-              </div>
-            </div>
-          </article>
-
-          <article class="case-card">
-            <div class="case-header">
-              <p class="case-tag">Skill focus</p>
-              <h3>Modern Android App Development</h3>
-            </div>
-            <p>
-              My Android work is centered on building maintainable applications
-              with Kotlin, Jetpack libraries, Compose-based UIs, and strong
-              attention to clean structure and usability.
-            </p>
-            <ul>
-              <li>Compose-based UI thinking</li>
-              <li>Feature implementation with maintainable structure</li>
-              <li>Developer-friendly code organization</li>
-            </ul>
-          </article>
-
-          <article class="case-card">
-            <div class="case-header">
-              <p class="case-tag">Engineering focus</p>
-              <h3>Debugging and Platform-Aware Problem Solving</h3>
-            </div>
-            <p>
-              I am comfortable working on issues that go beyond UI alone, especially
-              where app behavior, lifecycle, integration, and platform context all
-              intersect.
-            </p>
-            <ul>
-              <li>Crash and bug investigation</li>
-              <li>Performance and behavioral debugging</li>
-              <li>Stronger confidence before release</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="teaching">
-        <div class="section-heading">
-          <p class="eyebrow">Professional Growth</p>
-          <h2>How I continue to build depth as an Android engineer</h2>
-        </div>
-        <div class="teaching-layout">
-          <article class="info-card">
-            <p class="card-kicker">Technical strengths</p>
-            <h3>What I work with</h3>
-            <ul>
-              <li>Android SDK, Kotlin, and Jetpack libraries</li>
-              <li>Jetpack Compose, state management, and clean architecture</li>
-              <li>Debugging, issue analysis, and performance tuning</li>
-              <li>Android Automotive domain exposure in a consulting role</li>
-            </ul>
-          </article>
-          <article class="info-card">
-            <p class="card-kicker">Career profile</p>
-            <h3>What this portfolio is meant to show</h3>
-            <ul>
-              <li>Current experience in Android Automotive</li>
-              <li>Strong base in Android app development</li>
-              <li>Ability to work across app and platform-aware concerns</li>
-              <li>Readiness for deeper Android engineering opportunities</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section band">
-        <div class="section-heading narrow">
-          <p class="eyebrow">Why This Profile Works</p>
-          <h2>I combine practical Android app development skills with real Android Automotive consulting experience.</h2>
-        </div>
-        <div class="trust-grid">
-          <div>
-            <span class="trust-label">Android foundation</span>
-            <p>I bring hands-on Android development skill with Kotlin, Jetpack, UI implementation, and maintainable project structure.</p>
-          </div>
-          <div>
-            <span class="trust-label">Domain exposure</span>
-            <p>I currently work in Android Automotive at Capgemini, which adds domain context beyond standard mobile app development.</p>
-          </div>
-          <div>
-            <span class="trust-label">Problem solving</span>
-            <p>I enjoy debugging, understanding systems clearly, and contributing where product behavior and technical complexity overlap.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div class="section-heading narrow">
+    <section class="section contact" id="contact">
+      <div class="shell">
+        <div class="section-heading centered">
           <p class="eyebrow">Contact</p>
-          <h2>Let’s make this profile fully yours</h2>
-          <p>
-            The structure now reflects your current background. Replace the links
-            below with your actual contact details and profile URLs.
+          <h2>Let’s connect</h2>
+          <p class="section-copy">
+            If you want to discuss Android development, Android Automotive, or
+            future opportunities, feel free to reach out.
           </p>
         </div>
-        <div class="contact-card">
-          <div class="contact-intro">
-            <p class="card-kicker">Get in touch</p>
-            <h3>Android developer currently working as a Consultant at Capgemini.</h3>
-          </div>
-          <div class="contact-grid">
-            <p><strong>Name:</strong> Aditya Narayan Pradhan</p>
-            <p><strong>Email:</strong> adnpradhan@gmail.com</p>
-            <p><strong>Phone:</strong> +91 9348067631</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/aditya-narayan-pradhan-44643a269</p>
-            <p><strong>GitHub:</strong> github.com/adityanarayan389</p>
-          </div>
+
+        <div class="contact-grid">
+          <article class="contact-card card">
+            <h3>Email</h3>
+            <p><a href="mailto:adnpradhan@gmail.com">adnpradhan@gmail.com</a></p>
+          </article>
+          <article class="contact-card card">
+            <h3>Phone</h3>
+            <p><a href="tel:+919348067631">+91 9348067631</a></p>
+          </article>
+          <article class="contact-card card">
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/aditya-narayan-pradhan-44643a269" target="_blank" rel="noreferrer">aditya-narayan-pradhan-44643a269</a></p>
+          </article>
+          <article class="contact-card card">
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/adityanarayan389" target="_blank" rel="noreferrer">github.com/adityanarayan389</a></p>
+          </article>
         </div>
-      </section>
-    </main>
-  </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
