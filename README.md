@@ -1,6 +1,6 @@
-# Android Automotive Portfolio
+# Android Developer Portfolio
 
-Standalone portfolio site for Android Automotive, AOSP, IVI, HAL integration, and teaching services.
+Standalone portfolio site for Android app development, Jetpack Compose, architecture, platform-aware engineering, and teaching services.
 
 ## Files
 
@@ -20,7 +20,7 @@ Open `index.html` in a browser, or host the folder on GitHub Pages, Netlify, or 
 
 ## Suggested next improvements
 
-- Add screenshots from your Android Automotive or embedded Android work
+- Add screenshots from your Android apps or platform-focused Android work
 - Add one downloadable PDF resume
 - Add a short testimonial section
 - Add a booking link for consulting calls
