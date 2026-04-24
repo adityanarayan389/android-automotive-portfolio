@@ -422,6 +422,14 @@ h4 {
   margin-bottom: 14px;
 }
 
+.timeline-points,
+.project-body ul {
+  margin: 16px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -458,13 +466,6 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   font-weight: 700;
-}
-
-.project-body ul {
-  margin: 16px 0 0;
-  padding-left: 18px;
-  color: var(--muted);
-  line-height: 1.8;
 }
 
 .services-grid {
